@@ -93,9 +93,12 @@ button{
 nav{
     font-weight: 800;
     text-transform: uppercase;
-    color:#e30909;
     background-color:#000000;
     padding: 2px;
+}
+
+nav a:link {
+  color: red;
 }
 
 a:visited {
@@ -108,6 +111,9 @@ a:visited {
 
 .modo-oscuro nav{
     background-color:#f4f2eb;
+}
+
+.modo-oscuro nav a:link{
     color:#1900ff;
 }
 

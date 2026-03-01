@@ -21,15 +21,19 @@
     <h1 id="saludo">S. Michelle Calderon </h1>
 
     <nav>
-            <!-- Navigation links here -->
+          <ul>
+                <a href="#hero">Inicio</a>
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#contacto">Contacto</a>
+            </ul>
         </nav>
-
+<div class="boton">
     <button onclick="cambiarTema()">Cambiar Tema</button>
-
+</div>
     <main>
-        <section>
+        <section id="hero">
             <div class="image-container">
-    <img src="https://pbs.twimg.com/media/GwJG2B0XoAATlOO.jpg">
+    <img class="uni"src="https://pbs.twimg.com/media/GwJG2B0XoAATlOO.jpg">
 </div>
             <h2>Ilustrador y diseñador gráfico</h2>
             <img src="https://adriansblinkiecollection.neocities.org/stamps/i13.png">
@@ -39,8 +43,8 @@
             <!-- More content or nested sections -->
         </section>
 
-        <section>
-            <h2>Sobre Mi</h2>
+        <section id="sobre-mi">
+            <h1>Sobre Mi</h1>
             <div class="biotext">
             <p>Artista mexicano-estadounidense de 20 años con un gran amor por el cine, los videojuegos y los gatos.</p>
             <p>Soy muy eficiente encontrando soluciones y generando ideas para proyectos creativos. Me esfuerzo por lograr el mejor resultado posible en mi trabajo y en la ejecución de mi visión, con gran pasión por lo que hago. Busco constantemente nuevas formas de crecer e innovar.</p>
@@ -49,13 +53,15 @@
         </section>
             
     </main>
-<img src="https://pixelsafari.neocities.org/dividers/powerlines.gif">
-    <footer>
-  <h4>Contacto</h4>
+<section id="contacto" class="contact">
+  <h3>Contacto</h3>
   <p>(646)148-2287</p>
   <p>smcworksmhp@gmail.com</p>
+</section>
+<img src="https://pixelsafari.neocities.org/dividers/powerlines.gif">
+<footer>
+   <p>© 2026 Programación de Sitios Dinámicos</p> 
 </footer>
-
     <script>
         function cambiarTema(){
             let cuerpo = document.body;
